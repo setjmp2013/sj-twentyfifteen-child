@@ -2,9 +2,9 @@
 /**
  * The template used for displaying page content
  *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
+ * @package setjmp
+ * @subpackage Twenty_Fifteen_Child
+ * @since setjmp Twenty Fifteen Child 0.1
  */
 ?>
 
