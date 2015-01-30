@@ -5,7 +5,7 @@ Description:    Child of twentyfifteen for setjmp2013.com
 Author:         Eric Allen Griff (setjmp)
 Author URI:     http://setjmp2013.com
 Template:       twentyfifteen
-Version:        0.2.0
+Version:        0.2.1
 Licence:        GNU General Public License v2 or later
 License URI:    http://www.gnu.org/licenses/gpl-2.0.html
 Tags:           light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -16,3 +16,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 article.page .posted-on {display:none}
+.entry-content p {text-indent: 25px}
+
+@media screen and (min-width: 38.75em)  {
+    .hentry, .page-header, .page-content {box-shadow: 0 0 1px rgba(0, 0, 0, 1.0);}
+}
